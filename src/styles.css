@@ -1,0 +1,44 @@
+body{
+  background-color: #ba4a49;
+  color: white;
+  font-family: consolas;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: consolas;
+}
+.container{
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(192, 98, 90);
+}
+.innerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.clock{
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+button{
+  background-color:rgb(255, 255, 255); 
+  border: none;
+  color:#ba4a49 ;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+.appContainer{
+  margin-top: 10%;
+}
